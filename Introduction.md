@@ -40,16 +40,50 @@ Compliance:
     Proving Solvency in zero-knowledge
     Zero-knowledge taxes
 
+### Protocols:
+
+- Loopring
+- Polygon Hermez
+- ZKSync
+- Zk Swap
 
 #### Pros
+
 - Smaller Proof size
 - Smaller verification time
 - Bigger developer community and libraries ( longer in the game)
 
 
 #### Cons
+
 - Required trusted setup (honest participants needed)
 - Longer prover time
 - Not secure by quantum computers
 - Strong crypto assumptions
 (The weaker the assumptions of a model, the stronger the model. Relaxing an assumption is to go from a strong to a weak, more realistic, assumption.)
+
+### What is Zk-Stark?
+
+Zk-Stark, which is stands for Zero-Knowledge Scalable Transparent Argument of Knowledge, is a cryptographic proof system that allows for the verification of computations without revealling any sensitive information about the computation itself. The key feature of ZK-STARKs is that they are transparent, which means the generation of the proof can be easily  verified by anyone without requiring any trusted setup or specialized knowledge. This transparency is desirable in various scenarios particularly in public blockchain networks where trust is distributed among multiple participants. Zk-STARKs are also post-quantum secure, meaning they are resistant to attacks by quantum computers. 
+
+### Protocols:
+
+- StarkWare/StarkEx
+- Immutable X (StarkEx)
+- DYDX (StarkEx)
+- Starknet
+- Polygon Miden
+
+### Pros:
+
+- Quantum Resistant
+- Assumptions: Collision resistant hashes( less likely to be attacked)
+- No Trusted Setup required
+- Community Support by Ethereum Foundation
+- More scalable in terms of computational speed
+
+
+### Cons:
+
+- Far Larger proof Size = More Gas
+- Small Deverloper community becuase it is new
